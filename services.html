@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2ba49bbc2f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="inner">
+                    <a href="#" class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(055 555 55 55)</span>
+                    </a>
+
+                    <div class="sosial-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f sosial-icons-item"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in sosial-icons-item"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter sosial-icons-item"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram sosial-icons-item"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube sosial-icons-item"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-top" id="search-offcanvas">
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <form action="#">
+                                <input type="text" class="form-control" placeholder="Axtar" />
+                                <button type="sumbit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <button class="close-button" data-bs-dismiss="offcanvas">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" id="menu-offcanvas">
+            <div class="offcanvas-header">
+                <a href="index.html" class="logo">
+                    <img src="./img/meladora-image/logo/white-logo.png" alt="design" />
+                </a>
+                <button data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="offcanvas-menu-links">
+                    <li><a href="./about.html">Biz kimik?</a></li>
+                    <li><a href="./gardens.html">Bağlarımız </a></li>
+                    <li><a href="./products.html">Məhsullarımız </a></li>
+                    <li><a href="./services.html">Xidmətlərimiz </a></li>
+                    <li><a href="./social-responsibility.html">Sosial məsuliyyət </a></li>
+                    <li><a href="./contact.html">Əlaqə </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="container">
+                <div class="inner">
+                    <a class="logo" href="./index.html">
+                        <img src="./img/meladora-image/logo/black-logo.png" />
+                    </a>
+
+                    <div class="right">
+                        <ul class="navbar-links">
+                            <li><a href="./about.html">Biz kimik?</a></li>
+                            <li><a href="./gardens.html">Bağlarımız </a></li>
+                            <li><a href="./products.html">Məhsullarımız </a></li>
+                            <li><a href="./services.html">Xidmətlərimiz </a></li>
+                            <li><a href="./social-responsibility.html">Sosial məsuliyyət </a></li>
+                            <li><a href="./contact.html">Əlaqə </a></li>
+                        </ul>
+                        <div class="buttons">
+                            <button class="menu-button" data-bs-toggle="offcanvas" data-bs-target="#menu-offcanvas">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <button class="search-button" data-bs-toggle="offcanvas" data-bs-target="#search-offcanvas">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-img"></div>
+        <div class="design-img"><img src="./img/meladora-image/design/banner-design.png" alt="design">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="title">Xidmətlərimiz</h1>
+                <img src="./img/meladora-image/design/title-design-1.png" alt="design">
+            </div>
+            <div class="service-container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="service-card">
+                            <div class="service_icon">
+                                <img src="./img/meladora-image/design/service-icon/s1-img.png" alt="icon">
+                            </div>
+                            <h4 class="title">Damcı suvarma sistemləri</h4>
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto
+                                    nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam
+                                    nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo
+                                    saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="service-img">
+                            <img src="./img/meladora-image/garden/g1-img.png" alt="service">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="service-card">
+                            <div class="service_icon">
+                                <img src="./img/meladora-image/design/service-icon/s2-img.png" alt="icon">
+                            </div>
+                            <h4 class="title">Layihələndirmə</h4>
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto
+                                    nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam
+                                    nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo
+                                    saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="service-img">
+                            <img src="./img/meladora-image/garden/g2-img.png" alt="service">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="service-card">
+                            <div class="service_icon">
+                                <img src="./img/meladora-image/design/service-icon/s3-img.png" alt="icon">
+                            </div>
+                            <h4 class="title">Açar təslim bağların salınması</h4>
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto
+                                    nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam
+                                    nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo
+                                    saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="service-img">
+                            <img src="./img/meladora-image/garden/g3-img.png" alt="service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_content">
+                <div class="footer_content_row">
+                    <div class="footer_logo">
+                        <div class="footer_logo_link">
+                            <img src="./img/meladora-image/logo/footer-logo-2.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="footer_row_item">
+                        <div class="row_item_links">
+                            <h3 class="item_link_title">Menyular</h3>
+                            <a href="./about.html">Biz kimik?</a>
+                            <a href="./gardens.html">Bağlarımız</a>
+                            <a href="./products.html">Məhsullarımız</a>
+                            <a href="./services.html">Xidmətlərimiz</a>
+                            <a href="./social-responsibility.html">Sosial məsuliyyət</a>
+                            <a href="./contact.html">Əlaqə</a>
+                        </div>
+                    </div>
+
+                    <div class="footer_row_item">
+                        <div class="row_item_links">
+                            <h3 class="item_link_title">Faydalı Linklər</h3>
+                            <a href="">Tez-tez soruşulanlar</a>
+                            <a href="">Karyera</a>
+                            <a href="">Xidmət şəbəkəsi</a>
+                            <a href="">Təhlükəsizlik</a>
+                            <a href="">Şərtlər və Qaydalar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <span class="copyright_desc">© Copyright</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./js/app.js" defer></script>
+    <script src="js/swiper.js"></script>
+
+</body>
+
+</html>
