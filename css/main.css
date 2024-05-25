@@ -262,12 +262,10 @@ footer .container {
   margin-top: 400px;
 }
 
-
 .footer_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   align-items: flex-end;
   width: 100%;
 }
@@ -281,15 +279,12 @@ footer .container {
 .footer_logo {
   align-items: center;
   margin-bottom: 50px;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   flex: 0 0 50%;
   width: 50%;
   max-width: 100%;
-
   padding: 0 160px;
 }
 
@@ -299,13 +294,10 @@ footer .container {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 40px;
-
   flex: 0 0 25%;
   width: 25%;
   max-width: 100%;
-
   padding: 0 12px;
-
 }
 
 .row_item_links {
@@ -325,8 +317,6 @@ footer.home .row_item_links {
   margin-bottom: 15px;
   font-size: 30px;
   width: 100%;
-  font-weight: 500;
-  line-height: 1.2;
 }
 
 .row_item_links a {
@@ -433,10 +423,10 @@ footer.home .footer_copyright {
 }
 
 #search-offcanvas {
-  background-color:#fff;
+  background-color: #fff;
 }
 header.home #search-offcanvas {
-  background-color:var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 #search-offcanvas .container {
@@ -500,11 +490,9 @@ header.home #search-offcanvas {
   background-color: var(--primary-color);
   color: #fff;
 }
-
 #menu-offcanvas {
   background-color: var(--bg-color);
 }
-
 /* @media only screen and(min-width: 396px) {
   #menu-offcanvas {}
 } */
@@ -1016,12 +1004,9 @@ section.gardens .container .section-title img {
   padding-bottom: 100px;
 }
 
-
 .garden-swiper .swiper-slide:nth-child(even) .garden-card {
   flex-direction: column-reverse;
 }
-
-
 
 .garden-card {
   text-align: center;
@@ -1081,7 +1066,7 @@ section.garden-general .container {
 
 section.garden-general .title {
   color: #000;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 section.garden-general .section-title img {
@@ -1364,30 +1349,28 @@ section.contact .contact-info .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
- margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 section.contact .contact-info .item i {
   font-size: 30px;
   margin-bottom: 15px;
 }
-section.contact .social-icons{
+section.contact .social-icons {
   align-items: center;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-section.contact .social-icons a{
+section.contact .social-icons a {
   align-items: center;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    height: 35px;
-    justify-content: center;
-    width: 35px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
 
-    color: var(--primary-color);
-    font-size: 20px;
-    margin-right: 15px;
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-right: 15px;
 }
-
-
